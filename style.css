@@ -1,28 +1,17 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #1a1a1a; /* Fondo oscuro */
-    color: #f4f4f4; /* Texto claro */
-    margin: 0;
+    background-color: #1a1a1a; 
+    color: #f4f4f4; 
     padding: 0;
 }
 
 header {
-    background-color: #e63946; /* Rojo vibrante */
+    background-color: #e63946; 
     padding: 20px;
     text-align: center;
 }
 
-.contenedor-animes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-}
-
-/* Estilo de las tarjetas de cada anime */
 .anime-card {
-    background-color: #2b2b2b;
-    border: 2px solid #e63946;
     border-radius: 10px;
     margin: 15px;
     padding: 20px;
@@ -31,7 +20,251 @@ header {
 }
 
 .anime-card:hover {
-    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+    transform: scale(1.05); 
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 8px;
+}
+
+.galeria-anime {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
+.item {
+    position: relative; 
+    background: white;
+    padding: 0; 
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden; 
+    height: 350px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.item h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.6); 
+    color: white;
+    font-size: 1rem;
+}
+
+.hero-section {
+    width: 100vw; 
+    height: 60vh; 
+    background-image: url('img/collage.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    color: white;
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.8);
+    margin: 0;
+}
+
+.presentacion {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+}
+
+.contenedor-texto {
+    max-width: 800px; 
+    text-align: center;
+}
+
+.contenedor-texto h2 {
+    font-size: 2.5rem;
+    color: #00d4ff;
+    margin-bottom: 20px;
+}
+
+.contenedor-texto p {
+    font-size: 1.1rem;
+    line-height: 1.8; 
+    color: #ccc;
+}
+
+.item {
+    position: relative;
+    height: 450px; 
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #000;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease; 
+}
+
+.item:hover {
+    transform: scale(1.03);
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.7; 
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8)); 
+}
+
+.info h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+}
+
+.info p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #eee;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.galeria-anime {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+.titulo-seccion {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 4rem; 
+    text-align: center; 
+    margin: 50px 0; 
+    letter-spacing: 3px;
+     background: linear-gradient(90deg, #ff8c00, #ff4500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 15px rgba(255, 69, 0, 0.4);
+    position: relative;
+}
+
+.titulo-seccion::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #ff4500;
+    margin: 10px auto; 
+    border-radius: 10px;
+}
+
+.navbar {
+    background-color: #0a0a0a; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILO DE LOS ENLACES */
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+}
+
+
+.nav-links li a:hover {
+    color: #ff4500;
+    background-color: rgba(255, 255, 255, 0.05); 
+    transform: translateY(-5px) scale(1.1); 
+    box-shadow: 0 10px 20px rgba(255, 69, 0, 0.3); 
+}
+
+.nav-links li a.active {
+    border-bottom: 2px solid #ff4500;
+    color: #ff4500;
 }
 
 h2 {

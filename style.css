@@ -40,18 +40,12 @@ nav a {
     font-weight: bold;
 }
 
-img {
-    max-width: 100%; 
-    height: auto;
-    border-radius: 8px;
-}
-
 .galeria-anime {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    padding: 40px;
 }
-
 
 .item {
     position: relative; 
@@ -61,7 +55,10 @@ img {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     border-radius: 8px;
     overflow: hidden; 
-    height: 350px;
+    height: 450px; 
+    border-radius: 15px;
+    background-color: #000;
+    transition: transform 0.3s ease; 
 }
 
 .item img {
@@ -69,6 +66,7 @@ img {
     height: 100%;
     object-fit: cover; 
     display: block;
+    opacity: 0.7; 
 }
 
 .item h3 {
@@ -124,39 +122,13 @@ img {
 .contenedor-texto {
     max-width: 800px; 
     text-align: center;
-}
-
-.contenedor-texto h2 {
-    font-size: 2.5rem;
-    color: #00d4ff;
-    margin-bottom: 20px;
-}
-
-.contenedor-texto p {
     font-size: 1.1rem;
     line-height: 1.8; 
     color: #ccc;
 }
 
-.item {
-    position: relative;
-    height: 450px; 
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: #000;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-    transition: transform 0.3s ease; 
-}
-
 .item:hover {
     transform: scale(1.03);
-}
-
-.item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    opacity: 0.7; 
 }
 
 .info {
@@ -191,21 +163,14 @@ img {
     margin: 0;
 }
 
-.galeria-anime {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    padding: 40px;
-}
-
 .titulo-seccion {
     font-family: 'Bebas Neue', cursive; 
     font-size: 4rem; 
     text-align: center; 
     margin: 50px 0; 
     letter-spacing: 3px;
-     background: linear-gradient(90deg, #ff8c00, #ff4500);
-    -webkit-background-clip: text;
+    background: linear-gradient(90deg, #ff8c00, #ff4500);
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 2px 2px 15px rgba(255, 69, 0, 0.4);
     position: relative;

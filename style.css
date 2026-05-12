@@ -12,16 +12,22 @@ header {
 }
 
 .anime-card {
-    border-radius: 10px;
-    margin: 15px;
-    padding: 20px;
+   /* margin: 15px;*/
     width: 250px;
-    transition: transform 0.3s;
+    position: relative; 
+    padding: 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden; 
+    height: 450px; 
+    border-radius: 15px;
+    transition: transform 0.3s ease; 
 }
 
-.anime-card:hover {
-    transform: scale(1.05); 
+.anime-card-prueba:hover, .anime-card:hover {
+    transform: scale(1.05);  
 }
+
 
 nav {
     background-color: #333;
@@ -47,21 +53,7 @@ nav a {
     padding: 40px;
 }
 
-.item {
-    position: relative; 
-    background: white;
-    padding: 0; 
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    border-radius: 8px;
-    overflow: hidden; 
-    height: 450px; 
-    border-radius: 15px;
-    background-color: #000;
-    transition: transform 0.3s ease; 
-}
-
-.item img {
+.anime-card img {
     width: 100%;
     height: 100%;
     object-fit: cover; 
@@ -69,7 +61,7 @@ nav a {
     opacity: 0.7; 
 }
 
-.item h3 {
+.anime-card h3 {
     position: absolute;
     bottom: 0;
     left: 0;

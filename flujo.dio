@@ -27,7 +27,7 @@
                 <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="1" source="7" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="git comit -m" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="7" value="git commit -m" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="-190" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="git branch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">

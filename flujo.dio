@@ -64,13 +64,9 @@
         </mxGraphModel>
     </diagram>
     <diagram id="I2iHi-DDh4XTPyDRYSNJ" name="Page-2">
-<<<<<<< HEAD
-        <mxGraphModel dx="282" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-=======
         <mxGraphModel dx="880" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
         <mxGraphModel dx="945" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
         <mxGraphModel dx="917" dy="325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
->>>>>>> a720fd09e0154c3d7151d9d8385889ece320abe8
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>

@@ -1,173 +1,185 @@
 <mxfile host="65bd71144e">
     <diagram id="KBgs-ADf1x9eOdiuqQq7" name="Page-1">
-        <mxGraphModel dx="945" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="880" dy="1417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Git init" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="Git init" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="-390" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="7">
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="git add ." style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="3" value="git add ." style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="40" y="-290" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="La primera vez cuando no tenemos proyecto creado, se corre una sola vez." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="5" value="La primera vez cuando no tenemos proyecto creado, se corre una sola vez." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="180" y="-375" width="220" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Preparar archivos para guardar." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="6" value="Preparar archivos para guardar." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="190" y="-280" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" parent="1" source="7" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="git comit -m" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="git comit -m" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="-190" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="git branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="9" value="git branch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="-90" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="12" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="210" y="-80" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="Guarda cambios del repositorio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="13" value="Guarda cambios del repositorio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="190" y="-180" width="150" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="git branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="git branch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="480" y="-390" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="git add ." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="480" y="-290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="git commit -m" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="-190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="git push" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="-90" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="I2iHi-DDh4XTPyDRYSNJ" name="Page-2">
-        <mxGraphModel dx="945" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="880" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-18" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-18" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="370" y="200" width="450" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="osQPiBckpSDiGsh-b5Xp-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-18">
+                <mxCell id="osQPiBckpSDiGsh-b5Xp-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="BcYNSAI0QWFuLp-P2Xef-18" vertex="1">
                     <mxGeometry x="-30" width="440" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="osQPiBckpSDiGsh-b5Xp-4" value="Mi pc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-18">
+                <mxCell id="osQPiBckpSDiGsh-b5Xp-4" value="Mi pc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-18" vertex="1">
                     <mxGeometry x="125" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-39" value="" style="group" vertex="1" connectable="0" parent="BcYNSAI0QWFuLp-P2Xef-18">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-39" value="" style="group" parent="BcYNSAI0QWFuLp-P2Xef-18" vertex="1" connectable="0">
                     <mxGeometry x="-40" y="70" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="osQPiBckpSDiGsh-b5Xp-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;git (local)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-39">
+                <mxCell id="osQPiBckpSDiGsh-b5Xp-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;git (local)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="BcYNSAI0QWFuLp-P2Xef-39" vertex="1">
                     <mxGeometry x="20" width="115" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-1" value="primeranime" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-39">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-1" value="primeranime" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-39" vertex="1">
                     <mxGeometry width="150" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-2" value="feature/lista-animesgit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-39">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-2" value="feature/lista-animesgit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-39" vertex="1">
                     <mxGeometry x="12.5" y="20" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-4" value="segundapagina" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-39">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-4" value="segundapagina" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-39" vertex="1">
                     <mxGeometry x="47.5" y="40" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-59" value="" style="group" vertex="1" connectable="0" parent="BcYNSAI0QWFuLp-P2Xef-18">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-59" value="" style="group" parent="BcYNSAI0QWFuLp-P2Xef-18" vertex="1" connectable="0">
                     <mxGeometry x="110" y="60" width="150" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-59">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="BcYNSAI0QWFuLp-P2Xef-59" vertex="1">
                     <mxGeometry width="150" height="84.375" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-41" value="git add" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-59">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-41" value="git add" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-59" vertex="1">
                     <mxGeometry x="41.66666666666667" y="22.5" width="66.66666666666667" height="16.875" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-51" value="git commit -m &quot;m&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-59">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-51" value="git commit -m &quot;m&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-59" vertex="1">
                     <mxGeometry x="30.56" y="33.75" width="99.44" height="33.75" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-57" value="git branch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-59">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-57" value="git branch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-59" vertex="1">
                     <mxGeometry x="41.66666666666667" width="66.66666666666667" height="33.75" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-58" value="git push" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-59">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-58" value="git push" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-59" vertex="1">
                     <mxGeometry x="41.66666666666667" y="56.25" width="66.66666666666667" height="33.75" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-67" value="" style="group" vertex="1" connectable="0" parent="BcYNSAI0QWFuLp-P2Xef-18">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-67" value="" style="group" parent="BcYNSAI0QWFuLp-P2Xef-18" vertex="1" connectable="0">
                     <mxGeometry x="280" y="60" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-61" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-67">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-61" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="BcYNSAI0QWFuLp-P2Xef-67" vertex="1">
                     <mxGeometry y="7.5" width="120" height="72.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-62" value="git checkout" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-67">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-62" value="git checkout" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-67" vertex="1">
                     <mxGeometry x="25" y="20" width="70" height="22.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-63" value="git status" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-67">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-63" value="git status" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-67" vertex="1">
                     <mxGeometry x="30" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-64" value="git rebase" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-67">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-64" value="git rebase" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-67" vertex="1">
                     <mxGeometry x="30" y="28.75" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-66" value="git merge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-67">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-66" value="git merge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-67" vertex="1">
                     <mxGeometry x="30" y="40" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-19" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-19" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="400" width="320" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-19">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="BcYNSAI0QWFuLp-P2Xef-19" vertex="1">
                     <mxGeometry width="320" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-21" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;git remote&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-19">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-21" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;git remote&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="BcYNSAI0QWFuLp-P2Xef-19" vertex="1">
                     <mxGeometry x="35" y="70" width="250" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-22" value="github.com" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-19">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-22" value="github.com" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-19" vertex="1">
                     <mxGeometry x="125" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-23" value="HEAD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-19">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-23" value="HEAD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-19" vertex="1">
                     <mxGeometry x="85" y="70" width="150" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-24" value="main" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-19">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-24" value="main" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-19" vertex="1">
                     <mxGeometry x="95" y="90" width="130" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-25" value="segundapagina" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BcYNSAI0QWFuLp-P2Xef-19">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-25" value="segundapagina" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="BcYNSAI0QWFuLp-P2Xef-19" vertex="1">
                     <mxGeometry x="135" y="110" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BcYNSAI0QWFuLp-P2Xef-20" target="osQPiBckpSDiGsh-b5Xp-4">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BcYNSAI0QWFuLp-P2Xef-20" target="osQPiBckpSDiGsh-b5Xp-4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-30" value="git pull" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BcYNSAI0QWFuLp-P2Xef-29">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-30" value="git pull" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BcYNSAI0QWFuLp-P2Xef-29" vertex="1" connectable="0">
                     <mxGeometry x="0.1284" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-31" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BcYNSAI0QWFuLp-P2Xef-20" target="osQPiBckpSDiGsh-b5Xp-2">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-31" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BcYNSAI0QWFuLp-P2Xef-20" target="osQPiBckpSDiGsh-b5Xp-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-32" value="git fetch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BcYNSAI0QWFuLp-P2Xef-31">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-32" value="git fetch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BcYNSAI0QWFuLp-P2Xef-31" vertex="1" connectable="0">
                     <mxGeometry x="-0.0013" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-33" style="edgeStyle=none;html=1;entryX=0.707;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BcYNSAI0QWFuLp-P2Xef-20" target="osQPiBckpSDiGsh-b5Xp-2">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-33" style="edgeStyle=none;html=1;entryX=0.707;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BcYNSAI0QWFuLp-P2Xef-20" target="osQPiBckpSDiGsh-b5Xp-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-34" value="git clone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BcYNSAI0QWFuLp-P2Xef-33">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-34" value="git clone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BcYNSAI0QWFuLp-P2Xef-33" vertex="1" connectable="0">
                     <mxGeometry x="-0.0468" y="2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-36" style="edgeStyle=none;html=1;entryX=0.878;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.883;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="osQPiBckpSDiGsh-b5Xp-2" target="BcYNSAI0QWFuLp-P2Xef-20">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-36" style="edgeStyle=none;html=1;entryX=0.878;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.883;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="osQPiBckpSDiGsh-b5Xp-2" target="BcYNSAI0QWFuLp-P2Xef-20" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="680" y="250" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-37" value="git push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BcYNSAI0QWFuLp-P2Xef-36">
+                <mxCell id="BcYNSAI0QWFuLp-P2Xef-37" value="git push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BcYNSAI0QWFuLp-P2Xef-36" vertex="1" connectable="0">
                     <mxGeometry x="0.0332" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="BcYNSAI0QWFuLp-P2Xef-65" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="650" y="370" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

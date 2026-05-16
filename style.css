@@ -39,12 +39,40 @@ header {
     background: linear-gradient(transparent, rgba(0,0,0,0.8)); 
 }
 
+.info-fondo {
+        position: absolute;
+        top: 50%; /* Lo centra verticalmente */
+        left: 50%;
+        transform: translate(-50%, -50%); /* Centrado exacto */
+        background-color: rgba(0, 0, 0, 0.55); /* Negro clarito/transparente */
+        color: white;
+        padding: 15px;
+        width: 80%;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 14px;
+        pointer-events: none; /* Para que no interfiera al hacer clic */
+}
+
+.info-titulo {
+position: absolute;
+        bottom: 15px; /* Pegado abajo */
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.7); /* Un poco más oscuro para que se lea mejor */
+        color: white;
+        padding: 5px 15px;
+        border-radius: 8px;
+        white-space: nowrap;
+        font-weight: bold;
+}
 .info h3 {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.8rem;
     color: #fff;
     margin-bottom: 10px;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+
 }
 
 .info p {

@@ -61,6 +61,12 @@ position: relative;         /* Mantiene los textos fijos dentro de la imagen */
     border-radius: 15px;        /* Bordes redondeados */
     overflow: hidden;
     }
+.galeria-anime {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
 
     .imagen-anime {
     width: 100%;
